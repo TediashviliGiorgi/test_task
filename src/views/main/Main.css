@@ -1,0 +1,49 @@
+.mainHero{
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        
+}
+
+/* .hero{
+    overflow: hidden;
+} */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.heroImage {
+    
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 0px 0px 30% 30%;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+ 
+}
+
+
+
+.heroTitle  {
+    bottom: 40%;
+    right: 50%;
+    position: absolute;
+    font-size: 2rem;
+    color: #444;
+    font-weight:400;
+    padding: 15px;
+}
+
+.heroTitle >span {
+    color: #7f3ffc;
+    font-weight: bolder;
+}
+
+

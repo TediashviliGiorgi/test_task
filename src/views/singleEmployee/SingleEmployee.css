@@ -1,0 +1,27 @@
+.section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.personProfileCard{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 80%;
+   width: 50%;
+   border-radius: 10px;
+}
+
+.like_btn {
+    margin-top: 50px;
+}
+
+hr {
+    width: 50%;
+}
